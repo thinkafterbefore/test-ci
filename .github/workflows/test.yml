@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: whoami
+      - run: groups
   docker_buildjet_runner:
     runs-on: buildjet-2vcpu-ubuntu-2004
     steps:
       - run: whoami
+      - run: groups
