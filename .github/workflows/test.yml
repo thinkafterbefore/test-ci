@@ -6,13 +6,16 @@ jobs:
     steps:
       - run: whoami
       - run: groups
-      - run: groups docker
+      - run: compgen -u
+      - run: compgen -g
       - run: id
   docker_buildjet_runner:
     runs-on: buildjet-2vcpu-ubuntu-2004
     steps:
       - run: whoami
       - run: groups
+      - run: compgen -u
+      - run: compgen -g
       - run: groups docker
       - run: id
 
