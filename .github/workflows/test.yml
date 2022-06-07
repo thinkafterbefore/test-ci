@@ -1,11 +1,11 @@
 name: Docker group name
 on: [push]
 jobs:
-  "Docker group name- GitHub Actions runner":
+  "Docker group name GitHub Actions runner":
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is working"
-  "Docker group name- BuildJet runner":
+  "Docker group name BuildJet runner":
     runs-on: buildjet-2vcpu-ubuntu-2004
     steps:
       - run: echo "This is working"
