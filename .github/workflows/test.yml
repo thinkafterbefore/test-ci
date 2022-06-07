@@ -4,8 +4,8 @@ jobs:
   docker_github_runner:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This is working"
+      - run: whoami
   docker_buildjet_runner:
     runs-on: buildjet-2vcpu-ubuntu-2004
     steps:
-      - run: echo "This is working"
+      - run: whoami
