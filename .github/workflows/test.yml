@@ -16,6 +16,5 @@ jobs:
       - run: groups
       - run: compgen -u
       - run: compgen -g
-      - run: groups docker
       - run: id
 
